@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .ReadMoreLess {
+    margin: 4rem auto;
+    width: 40rem;
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: antiquewhite;
+  }
+  
+  button {
+    padding: 3px 5px;
+    background-color: #00b4d8;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .long-text {
+    height: 0;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .expanded {
+    height: 6rem;
+  }
